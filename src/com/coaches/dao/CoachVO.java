@@ -1,20 +1,20 @@
-package com.coach.dao;
+package com.coaches.dao;
 
 import java.io.Serializable;
 import java.sql.Blob;
 
 public class CoachVO implements Serializable{
 	private String coa_acc;
-	private int mem_no;
+	private Integer mem_no;
 	private String coa_psw;
-	private int coa_sta;
+	private Integer coa_sta;
 	private String coa_name;
-	private int coa_sex;
+	private Integer coa_sex;
 	private String coa_mail;
 	private String coa_resume;
 	private Blob coa_pic;
-	private int coa_acc_sta;
-	private int coa_pft;
+	private Integer coa_acc_sta;
+	private Integer coa_pft;
 	
 	public CoachVO() {
 		

@@ -1,4 +1,4 @@
-package com.coach.dao;
+package com.coaches.dao;
 
 import java.sql.*;
 

@@ -1,4 +1,4 @@
-package com.coach.dao;
+package com.coaches.dao;
 
 public interface CoachDAO_interface {
 	void add(CoachVO coach);
