@@ -7,9 +7,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="get" action="">
-		<input type="submit" name="mem_rank" value="健身者">健身者
-		
+請選擇您的身分
+<br>
+	<form method="get" action="Students__Registered.jsp.jsp">
+		<input type="submit" name="mem_rank" value="健身者">
+	</form><br>
+	<form method="get" action="Coaches_Registered.jsp">
+		<input type="submit" name="mem_rank" value="教練">
+	</form><br>
+	<form method="get" action="Gyms__Registered.jsp.jsp">
+		<input type="submit" name="mem_rank" value="健身房">
+	</form><br>
+	<form method="get" action="Index.jsp">
+		<input type="submit" value="返回">
 	</form>
 </body>
 </html>
