@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class TestJDBCDAO1
  */
 @WebServlet("/TestJDBCDAO1")
-public class JDBCDAO_login extends HttpServlet {
+public class JDBCCoaches_login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	CoachesDAO_implements dao = new CoachesDAO_implements();
 	

@@ -19,7 +19,7 @@
     	健貨股份有限公司<br>
     	註冊系統&nbsp<b>教練</b><br>
 		<table>
-		<form method="post" action="">
+		<form method="post" action="TestJDBCDAO">
 	
 			*帳號：<br>
 			<input type="text" name="coa_acc"><br>
@@ -32,6 +32,9 @@
 			<br>
 			*姓名：<br>
 			<input type="text" name="coa_name"><br>
+			<br>
+			暱稱：<br>
+			<input type="text" name="mem_nickname"><br>
 			<br>
 			*性別：<br>
 			<label><input type="radio" name="coa_sex" value="1">男</label>

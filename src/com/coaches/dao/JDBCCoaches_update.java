@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class JDBCDAO_update
  */
 @WebServlet("/JDBCDAO_update")
-public class JDBCDAO_update extends HttpServlet {
+public class JDBCCoaches_update extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public JDBCDAO_update() {
+    public JDBCCoaches_update() {
         super();
         // TODO Auto-generated constructor stub
     }
